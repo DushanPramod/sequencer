@@ -87,6 +87,7 @@ echo "BUGGY_FILE_PATH = ${BUGGY_FILE_PATH}"
 echo "BUGGY_LINE = ${BUGGY_LINE}"
 echo "BEAM_SIZE = ${BEAM_SIZE}"
 echo "OUTPUT = ${OUTPUT}"
+echo "MODEL = ${MODEL}"
 echo
 
 BUGGY_FILE_NAME=${BUGGY_FILE_PATH##*/}
