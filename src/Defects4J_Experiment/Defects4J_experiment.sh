@@ -46,7 +46,7 @@ do
   echo
 
   echo "Generating patches for ${col1}_${col2}"
-  $CURRENT_DIR/../sequencer-predict.sh --model=/content/sequencer/results/Golden/final-model_step_20000.pt --buggy_file=$BUG_PROJECT/$col3 --buggy_line=$col4 --beam_size=50 --output=$DEFECTS4J_PATCHES_DIR/${col1}_${col2}
+  $CURRENT_DIR/../sequencer-predict.sh --model=/content/sequencer/model/model.pt --buggy_file=$BUG_PROJECT/$col3 --buggy_line=$col4 --beam_size=50 --output=$DEFECTS4J_PATCHES_DIR/${col1}_${col2}
   echo
 
   echo "Running test on all patches for ${col1}_${col2}"

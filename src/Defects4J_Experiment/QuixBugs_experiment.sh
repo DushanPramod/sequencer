@@ -46,7 +46,7 @@ do
   echo
 
   echo "Generating patches for ${col2}"
-  $CURRENT_DIR/../sequencer-predict.sh --model=/content/sequencer/results/Golden/final-model_step_20000.pt --buggy_file="${BUG_PROJECT}/${col2}.java" --buggy_line=$col4 --beam_size=50 --output=$QUIXBUGS_PATCHES_DIR/${col2}
+  $CURRENT_DIR/../sequencer-predict.sh --model=/content/sequencer/model/model.pt --buggy_file="${BUG_PROJECT}/${col2}.java" --buggy_line=$col4 --beam_size=50 --output=$QUIXBUGS_PATCHES_DIR/${col2}
   echo
 
   # echo "Running test on all patches for ${col2}"
