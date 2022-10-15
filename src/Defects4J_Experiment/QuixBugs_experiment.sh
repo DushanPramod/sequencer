@@ -53,14 +53,14 @@ do
   # python3 $CURRENT_DIR/validatePatch.py $QUIXBUGS_PATCHES_DIR/${col2} $BUG_PROJECT $BUG_PROJECT/$col3
   # echo
 
-  # echo "Deleting ${BUG_PROJECT}"
-  # rm -rf $BUG_PROJECT
-  # echo
+  echo "Deleting ${BUG_PROJECT}"
+  rm -rf $BUG_PROJECT
+  echo
 done < Quixbugs_metadata.csv
 
-# echo "Deleting Defects4J_projects"
-# rm -rf $QUIXBUGS_DIR
-# echo
+echo "Deleting Defects4J_projects"
+rm -rf $QUIXBUGS_DIR
+echo
 
 # if [ $LOG_RESULT -eq 1 ]; then
 #   CREATED=`find $QUIXBUGS_PATCHES_DIR -name '*' -type d | wc -l | awk '{print $1}'`
