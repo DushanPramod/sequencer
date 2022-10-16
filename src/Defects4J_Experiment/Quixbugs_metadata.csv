@@ -36,9 +36,7 @@
 36,SUBSEQUENCES,/src/main/java/java_programs/SUBSEQUENCES.java,16,none
 37,BREADTH_FIRST_SEARCH,/src/main/java/java_programs/BREADTH_FIRST_SEARCH.java,24,none
 38,KNAPSACK,/src/main/java/java_programs/KNAPSACK.java,30,none
-40,MINIMUM_SPANNING_TREE,/src/main/java/java_programs/MINIMUM_SPANNING_TREE.java,28,none
-42,QUICKSORT,/src/main/java/java_programs/QUICKSORT.java,26,none
-43,SHORTEST_PATH_LENGTH,/src/main/java/java_programs/SHORTEST_PATH_LENGTH.java,37,none
-44,SHORTEST_PATH_LENGTHS,/src/main/java/java_programs/SHORTEST_PATH_LENGTHS.java,36,none
-45,SHUNTING_YARD,/src/main/java/java_programs/SHUNTING_YARD.java,33,none
-46,WRAP,/src/main/java/java_programs/WRAP.java,31,none
+39,MINIMUM_SPANNING_TREE,/src/main/java/java_programs/MINIMUM_SPANNING_TREE.java,28,none
+40,QUICKSORT,/src/main/java/java_programs/QUICKSORT.java,26,none
+41,SHORTEST_PATH_LENGTH,/src/main/java/java_programs/SHORTEST_PATH_LENGTH.java,37,none
+42,SHORTEST_PATH_LENGTHS,/src/main/java/java_programs/SHORTEST_PATH_LENGTHS.java,36,none
